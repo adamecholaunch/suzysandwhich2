@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D9C989B9611975BDB887344 /* Pods_SAT_MathTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25B78BD94A2352CD53F5A2B /* Pods_SAT_MathTests.framework */; };
+		661EC7BB1F12CE0D0014E12D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661EC7BA1F12CE0D0014E12D /* HomeVC.swift */; };
+		661EC7BF1F12F86C0014E12D /* BlogPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661EC7BE1F12F86C0014E12D /* BlogPVC.swift */; };
+		661EC7C11F1318FD0014E12D /* BlogContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661EC7C01F1318FD0014E12D /* BlogContentVC.swift */; };
+		662A514A1F16D468001A25A7 /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662A51491F16D468001A25A7 /* CalculatorVC.swift */; };
+		6659740D1F1A7B94001C3FF3 /* MCChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6659740C1F1A7B94001C3FF3 /* MCChoice.swift */; };
+		66623C621F15D7BD00FF45A9 /* ContactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66623C611F15D7BD00FF45A9 /* ContactUsVC.swift */; };
+		66623C651F15D82500FF45A9 /* RateUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66623C641F15D82500FF45A9 /* RateUsVC.swift */; };
+		66623C671F15D96900FF45A9 /* TestDateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66623C661F15D96900FF45A9 /* TestDateVC.swift */; };
+		66623C691F15D9AB00FF45A9 /* TermsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66623C681F15D9AB00FF45A9 /* TermsVC.swift */; };
+		66623C6B1F15DA8A00FF45A9 /* CreditsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66623C6A1F15DA8A00FF45A9 /* CreditsVC.swift */; };
+		66623C6D1F15DACD00FF45A9 /* SignUpForSatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66623C6C1F15DACD00FF45A9 /* SignUpForSatVC.swift */; };
+		66623C6F1F15DB0500FF45A9 /* SupportUSVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66623C6E1F15DB0500FF45A9 /* SupportUSVC.swift */; };
+		66623C711F15DBAC00FF45A9 /* FeeWaiverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66623C701F15DBAC00FF45A9 /* FeeWaiverVC.swift */; };
+		667FAC5D1EF706F100A5194F /* MCQuestionTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FAC5C1EF706F100A5194F /* MCQuestionTable.swift */; };
+		667FAC7B1EF86CFB00A5194F /* QuestionTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667FAC7A1EF86CFB00A5194F /* QuestionTable.storyboard */; };
+		667FAC7D1EF8702800A5194F /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FAC7C1EF8702800A5194F /* TestVC.swift */; };
+		667FAC7F1EF87A6A00A5194F /* TopTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FAC7E1EF87A6A00A5194F /* TopTVC.swift */; };
+		667FAC811EF8BDC800A5194F /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FAC801EF8BDC800A5194F /* Problem.swift */; };
+		667FAC831EF8DD4100A5194F /* Ma1TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FAC821EF8DD4100A5194F /* Ma1TVC.swift */; };
+		66819AA21EF5A8A70074FAB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66819AA11EF5A8A70074FAB5 /* AppDelegate.swift */; };
+		66819AA41EF5A8A70074FAB5 /* MathQuestioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66819AA31EF5A8A70074FAB5 /* MathQuestioner.swift */; };
+		66819AA71EF5A8A70074FAB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66819AA51EF5A8A70074FAB5 /* Main.storyboard */; };
+		66819AA91EF5A8A70074FAB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66819AA81EF5A8A70074FAB5 /* Assets.xcassets */; };
+		66819AAC1EF5A8A70074FAB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66819AAA1EF5A8A70074FAB5 /* LaunchScreen.storyboard */; };
+		66819AB71EF5A8A70074FAB5 /* SAT_MathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66819AB61EF5A8A70074FAB5 /* SAT_MathTests.swift */; };
+		66819AC21EF5A8A70074FAB5 /* SAT_MathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66819AC11EF5A8A70074FAB5 /* SAT_MathUITests.swift */; };
+		668586DD1F13F2BC00104024 /* BlogPostFullVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668586DC1F13F2BC00104024 /* BlogPostFullVC.swift */; };
+		66C751C71F1A7C0B006C881F /* ProblemSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C751C61F1A7C0B006C881F /* ProblemSet.swift */; };
+		66C751C91F1A7DF6006C881F /* ExampleProblems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C751C81F1A7DF6006C881F /* ExampleProblems.swift */; };
+		66CA56491F142EA800E57055 /* PracticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA56481F142EA800E57055 /* PracticeVC.swift */; };
+		66D96B831F1A77820084C5AF /* QuestImageTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D96B821F1A77820084C5AF /* QuestImageTVC.swift */; };
+		66D96B851F1A77CF0084C5AF /* QuestTextfieldTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D96B841F1A77CF0084C5AF /* QuestTextfieldTVC.swift */; };
+		66D96B871F1A77F00084C5AF /* QuestLatexLabelTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D96B861F1A77F00084C5AF /* QuestLatexLabelTVC.swift */; };
+		A19296E8388B268408AF4C99 /* Pods_SAT_MathUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0435F6A3143EB9ECFEA5E3D1 /* Pods_SAT_MathUITests.framework */; };
+		EDD2249EFB949E3D9AEAE94F /* Pods_SAT_Math.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1C21C0A1948AB3BCB2A3F8 /* Pods_SAT_Math.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66819AB31EF5A8A70074FAB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66819A961EF5A8A70074FAB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66819A9D1EF5A8A70074FAB5;
+			remoteInfo = "SAT Math";
+		};
+		66819ABE1EF5A8A70074FAB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66819A961EF5A8A70074FAB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66819A9D1EF5A8A70074FAB5;
+			remoteInfo = "SAT Math";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0435F6A3143EB9ECFEA5E3D1 /* Pods_SAT_MathUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAT_MathUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1669E318A8123B94F1B6382E /* Pods-SAT MathUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAT MathUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAT MathUITests/Pods-SAT MathUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4324637F433546069C434C8D /* Pods-SAT Math.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAT Math.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAT Math/Pods-SAT Math.release.xcconfig"; sourceTree = "<group>"; };
+		57AAA7C382E1CF2BB7543F7A /* Pods-SAT Math.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAT Math.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAT Math/Pods-SAT Math.debug.xcconfig"; sourceTree = "<group>"; };
+		60A16A7B4AFD0E8FEBFC96CB /* Pods-SAT MathTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAT MathTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAT MathTests/Pods-SAT MathTests.release.xcconfig"; sourceTree = "<group>"; };
+		661EC7BA1F12CE0D0014E12D /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		661EC7BE1F12F86C0014E12D /* BlogPVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogPVC.swift; sourceTree = "<group>"; };
+		661EC7C01F1318FD0014E12D /* BlogContentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogContentVC.swift; sourceTree = "<group>"; };
+		662A51491F16D468001A25A7 /* CalculatorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorVC.swift; sourceTree = "<group>"; };
+		6659740C1F1A7B94001C3FF3 /* MCChoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCChoice.swift; sourceTree = "<group>"; };
+		66623C611F15D7BD00FF45A9 /* ContactUsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsVC.swift; sourceTree = "<group>"; };
+		66623C641F15D82500FF45A9 /* RateUsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateUsVC.swift; sourceTree = "<group>"; };
+		66623C661F15D96900FF45A9 /* TestDateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDateVC.swift; sourceTree = "<group>"; };
+		66623C681F15D9AB00FF45A9 /* TermsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsVC.swift; sourceTree = "<group>"; };
+		66623C6A1F15DA8A00FF45A9 /* CreditsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsVC.swift; sourceTree = "<group>"; };
+		66623C6C1F15DACD00FF45A9 /* SignUpForSatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpForSatVC.swift; sourceTree = "<group>"; };
+		66623C6E1F15DB0500FF45A9 /* SupportUSVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportUSVC.swift; sourceTree = "<group>"; };
+		66623C701F15DBAC00FF45A9 /* FeeWaiverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeeWaiverVC.swift; sourceTree = "<group>"; };
+		667FAC5C1EF706F100A5194F /* MCQuestionTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCQuestionTable.swift; sourceTree = "<group>"; };
+		667FAC7A1EF86CFB00A5194F /* QuestionTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QuestionTable.storyboard; sourceTree = "<group>"; };
+		667FAC7C1EF8702800A5194F /* TestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
+		667FAC7E1EF87A6A00A5194F /* TopTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTVC.swift; sourceTree = "<group>"; };
+		667FAC801EF8BDC800A5194F /* Problem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
+		667FAC821EF8DD4100A5194F /* Ma1TVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ma1TVC.swift; sourceTree = "<group>"; };
+		66819A9E1EF5A8A70074FAB5 /* SAT Math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SAT Math.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66819AA11EF5A8A70074FAB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66819AA31EF5A8A70074FAB5 /* MathQuestioner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathQuestioner.swift; sourceTree = "<group>"; };
+		66819AA61EF5A8A70074FAB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66819AA81EF5A8A70074FAB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66819AAB1EF5A8A70074FAB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66819AAD1EF5A8A70074FAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66819AB21EF5A8A70074FAB5 /* SAT MathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SAT MathTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66819AB61EF5A8A70074FAB5 /* SAT_MathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAT_MathTests.swift; sourceTree = "<group>"; };
+		66819AB81EF5A8A70074FAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66819ABD1EF5A8A70074FAB5 /* SAT MathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SAT MathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66819AC11EF5A8A70074FAB5 /* SAT_MathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAT_MathUITests.swift; sourceTree = "<group>"; };
+		66819AC31EF5A8A70074FAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668586DC1F13F2BC00104024 /* BlogPostFullVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogPostFullVC.swift; sourceTree = "<group>"; };
+		66C751C61F1A7C0B006C881F /* ProblemSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemSet.swift; sourceTree = "<group>"; };
+		66C751C81F1A7DF6006C881F /* ExampleProblems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleProblems.swift; sourceTree = "<group>"; };
+		66CA56481F142EA800E57055 /* PracticeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeVC.swift; sourceTree = "<group>"; };
+		66D96B821F1A77820084C5AF /* QuestImageTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestImageTVC.swift; sourceTree = "<group>"; };
+		66D96B841F1A77CF0084C5AF /* QuestTextfieldTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestTextfieldTVC.swift; sourceTree = "<group>"; };
+		66D96B861F1A77F00084C5AF /* QuestLatexLabelTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestLatexLabelTVC.swift; sourceTree = "<group>"; };
+		69B0AE3B0B70FCA56C509F78 /* Pods-SAT MathTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAT MathTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAT MathTests/Pods-SAT MathTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5192697460A813D3211BE4A /* Pods-SAT MathUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAT MathUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAT MathUITests/Pods-SAT MathUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C25B78BD94A2352CD53F5A2B /* Pods_SAT_MathTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAT_MathTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1C21C0A1948AB3BCB2A3F8 /* Pods_SAT_Math.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAT_Math.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66819A9B1EF5A8A70074FAB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD2249EFB949E3D9AEAE94F /* Pods_SAT_Math.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66819AAF1EF5A8A70074FAB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9C989B9611975BDB887344 /* Pods_SAT_MathTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66819ABA1EF5A8A70074FAB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19296E8388B268408AF4C99 /* Pods_SAT_MathUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DFA4395ACF572A7FD80AA09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB1C21C0A1948AB3BCB2A3F8 /* Pods_SAT_Math.framework */,
+				C25B78BD94A2352CD53F5A2B /* Pods_SAT_MathTests.framework */,
+				0435F6A3143EB9ECFEA5E3D1 /* Pods_SAT_MathUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		661EC7B91F12CDF00014E12D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				66819AA81EF5A8A70074FAB5 /* Assets.xcassets */,
+				66819AA11EF5A8A70074FAB5 /* AppDelegate.swift */,
+				66819AA51EF5A8A70074FAB5 /* Main.storyboard */,
+				66819AAA1EF5A8A70074FAB5 /* LaunchScreen.storyboard */,
+				66819AAD1EF5A8A70074FAB5 /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		66229BD21F16CFDC00BB57F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6659740C1F1A7B94001C3FF3 /* MCChoice.swift */,
+				667FAC801EF8BDC800A5194F /* Problem.swift */,
+				66C751C61F1A7C0B006C881F /* ProblemSet.swift */,
+				66C751C81F1A7DF6006C881F /* ExampleProblems.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		66229BD31F16D01D00BB57F4 /* Questioner */ = {
+			isa = PBXGroup;
+			children = (
+				662A51491F16D468001A25A7 /* CalculatorVC.swift */,
+				667FAC5C1EF706F100A5194F /* MCQuestionTable.swift */,
+				66819AA31EF5A8A70074FAB5 /* MathQuestioner.swift */,
+				667FAC7C1EF8702800A5194F /* TestVC.swift */,
+				66D96B881F1A786E0084C5AF /* TableViewCells */,
+			);
+			name = Questioner;
+			sourceTree = "<group>";
+		};
+		66229BD41F16D06100BB57F4 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				661EC7BE1F12F86C0014E12D /* BlogPVC.swift */,
+				661EC7BA1F12CE0D0014E12D /* HomeVC.swift */,
+				661EC7C01F1318FD0014E12D /* BlogContentVC.swift */,
+				668586DC1F13F2BC00104024 /* BlogPostFullVC.swift */,
+				66CA56481F142EA800E57055 /* PracticeVC.swift */,
+			);
+			name = HomePage;
+			sourceTree = "<group>";
+		};
+		66623C631F15D80400FF45A9 /* SideMenuVCs */ = {
+			isa = PBXGroup;
+			children = (
+				66623C611F15D7BD00FF45A9 /* ContactUsVC.swift */,
+				66623C701F15DBAC00FF45A9 /* FeeWaiverVC.swift */,
+				66623C6E1F15DB0500FF45A9 /* SupportUSVC.swift */,
+				66623C6C1F15DACD00FF45A9 /* SignUpForSatVC.swift */,
+				66623C641F15D82500FF45A9 /* RateUsVC.swift */,
+				66623C6A1F15DA8A00FF45A9 /* CreditsVC.swift */,
+				66623C681F15D9AB00FF45A9 /* TermsVC.swift */,
+				66623C661F15D96900FF45A9 /* TestDateVC.swift */,
+			);
+			name = SideMenuVCs;
+			sourceTree = "<group>";
+		};
+		66819A951EF5A8A70074FAB5 = {
+			isa = PBXGroup;
+			children = (
+				66819AA01EF5A8A70074FAB5 /* SAT Math */,
+				66819AB51EF5A8A70074FAB5 /* SAT MathTests */,
+				66819AC01EF5A8A70074FAB5 /* SAT MathUITests */,
+				66819A9F1EF5A8A70074FAB5 /* Products */,
+				A168DADEDBE31EAD25541D4D /* Pods */,
+				2DFA4395ACF572A7FD80AA09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66819A9F1EF5A8A70074FAB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66819A9E1EF5A8A70074FAB5 /* SAT Math.app */,
+				66819AB21EF5A8A70074FAB5 /* SAT MathTests.xctest */,
+				66819ABD1EF5A8A70074FAB5 /* SAT MathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66819AA01EF5A8A70074FAB5 /* SAT Math */ = {
+			isa = PBXGroup;
+			children = (
+				667FAC7A1EF86CFB00A5194F /* QuestionTable.storyboard */,
+				66229BD31F16D01D00BB57F4 /* Questioner */,
+				66229BD41F16D06100BB57F4 /* HomePage */,
+				66229BD21F16CFDC00BB57F4 /* Models */,
+				66623C631F15D80400FF45A9 /* SideMenuVCs */,
+				661EC7B91F12CDF00014E12D /* Other */,
+			);
+			path = "SAT Math";
+			sourceTree = "<group>";
+		};
+		66819AB51EF5A8A70074FAB5 /* SAT MathTests */ = {
+			isa = PBXGroup;
+			children = (
+				66819AB61EF5A8A70074FAB5 /* SAT_MathTests.swift */,
+				66819AB81EF5A8A70074FAB5 /* Info.plist */,
+			);
+			path = "SAT MathTests";
+			sourceTree = "<group>";
+		};
+		66819AC01EF5A8A70074FAB5 /* SAT MathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66819AC11EF5A8A70074FAB5 /* SAT_MathUITests.swift */,
+				66819AC31EF5A8A70074FAB5 /* Info.plist */,
+			);
+			path = "SAT MathUITests";
+			sourceTree = "<group>";
+		};
+		66D96B881F1A786E0084C5AF /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				66D96B841F1A77CF0084C5AF /* QuestTextfieldTVC.swift */,
+				667FAC7E1EF87A6A00A5194F /* TopTVC.swift */,
+				66D96B861F1A77F00084C5AF /* QuestLatexLabelTVC.swift */,
+				66D96B821F1A77820084C5AF /* QuestImageTVC.swift */,
+				667FAC821EF8DD4100A5194F /* Ma1TVC.swift */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		A168DADEDBE31EAD25541D4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57AAA7C382E1CF2BB7543F7A /* Pods-SAT Math.debug.xcconfig */,
+				4324637F433546069C434C8D /* Pods-SAT Math.release.xcconfig */,
+				69B0AE3B0B70FCA56C509F78 /* Pods-SAT MathTests.debug.xcconfig */,
+				60A16A7B4AFD0E8FEBFC96CB /* Pods-SAT MathTests.release.xcconfig */,
+				1669E318A8123B94F1B6382E /* Pods-SAT MathUITests.debug.xcconfig */,
+				B5192697460A813D3211BE4A /* Pods-SAT MathUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66819A9D1EF5A8A70074FAB5 /* SAT Math */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66819AC61EF5A8A70074FAB5 /* Build configuration list for PBXNativeTarget "SAT Math" */;
+			buildPhases = (
+				9AB15D211F2426F2219F6FED /* [CP] Check Pods Manifest.lock */,
+				66819A9A1EF5A8A70074FAB5 /* Sources */,
+				66819A9B1EF5A8A70074FAB5 /* Frameworks */,
+				66819A9C1EF5A8A70074FAB5 /* Resources */,
+				A892A5C931BACA7E1EA7E257 /* [CP] Embed Pods Frameworks */,
+				A0C5319356B53EA90D4E2501 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SAT Math";
+			productName = "SAT Math";
+			productReference = 66819A9E1EF5A8A70074FAB5 /* SAT Math.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66819AB11EF5A8A70074FAB5 /* SAT MathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66819AC91EF5A8A70074FAB5 /* Build configuration list for PBXNativeTarget "SAT MathTests" */;
+			buildPhases = (
+				54B094CD4817C88F7A025E08 /* [CP] Check Pods Manifest.lock */,
+				66819AAE1EF5A8A70074FAB5 /* Sources */,
+				66819AAF1EF5A8A70074FAB5 /* Frameworks */,
+				66819AB01EF5A8A70074FAB5 /* Resources */,
+				FBEEB765E7D5E591F45ED261 /* [CP] Embed Pods Frameworks */,
+				F301065A3CCCBE9D26411549 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66819AB41EF5A8A70074FAB5 /* PBXTargetDependency */,
+			);
+			name = "SAT MathTests";
+			productName = "SAT MathTests";
+			productReference = 66819AB21EF5A8A70074FAB5 /* SAT MathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66819ABC1EF5A8A70074FAB5 /* SAT MathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66819ACC1EF5A8A70074FAB5 /* Build configuration list for PBXNativeTarget "SAT MathUITests" */;
+			buildPhases = (
+				A0D6CBE56C16BF1E500A4F57 /* [CP] Check Pods Manifest.lock */,
+				66819AB91EF5A8A70074FAB5 /* Sources */,
+				66819ABA1EF5A8A70074FAB5 /* Frameworks */,
+				66819ABB1EF5A8A70074FAB5 /* Resources */,
+				3D35ED9317546215D12F8F90 /* [CP] Embed Pods Frameworks */,
+				F498210A403A95B344FBC7DD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66819ABF1EF5A8A70074FAB5 /* PBXTargetDependency */,
+			);
+			name = "SAT MathUITests";
+			productName = "SAT MathUITests";
+			productReference = 66819ABD1EF5A8A70074FAB5 /* SAT MathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66819A961EF5A8A70074FAB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Adam Buys";
+				TargetAttributes = {
+					66819A9D1EF5A8A70074FAB5 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					66819AB11EF5A8A70074FAB5 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66819A9D1EF5A8A70074FAB5;
+					};
+					66819ABC1EF5A8A70074FAB5 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66819A9D1EF5A8A70074FAB5;
+					};
+				};
+			};
+			buildConfigurationList = 66819A991EF5A8A70074FAB5 /* Build configuration list for PBXProject "SAT Math" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66819A951EF5A8A70074FAB5;
+			productRefGroup = 66819A9F1EF5A8A70074FAB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66819A9D1EF5A8A70074FAB5 /* SAT Math */,
+				66819AB11EF5A8A70074FAB5 /* SAT MathTests */,
+				66819ABC1EF5A8A70074FAB5 /* SAT MathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66819A9C1EF5A8A70074FAB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66819AAC1EF5A8A70074FAB5 /* LaunchScreen.storyboard in Resources */,
+				66819AA91EF5A8A70074FAB5 /* Assets.xcassets in Resources */,
+				66819AA71EF5A8A70074FAB5 /* Main.storyboard in Resources */,
+				667FAC7B1EF86CFB00A5194F /* QuestionTable.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66819AB01EF5A8A70074FAB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66819ABB1EF5A8A70074FAB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D35ED9317546215D12F8F90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAT MathUITests/Pods-SAT MathUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54B094CD4817C88F7A025E08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9AB15D211F2426F2219F6FED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0C5319356B53EA90D4E2501 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAT Math/Pods-SAT Math-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0D6CBE56C16BF1E500A4F57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A892A5C931BACA7E1EA7E257 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAT Math/Pods-SAT Math-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F301065A3CCCBE9D26411549 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAT MathTests/Pods-SAT MathTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F498210A403A95B344FBC7DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAT MathUITests/Pods-SAT MathUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBEEB765E7D5E591F45ED261 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAT MathTests/Pods-SAT MathTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66819A9A1EF5A8A70074FAB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667FAC831EF8DD4100A5194F /* Ma1TVC.swift in Sources */,
+				66623C6D1F15DACD00FF45A9 /* SignUpForSatVC.swift in Sources */,
+				667FAC7D1EF8702800A5194F /* TestVC.swift in Sources */,
+				66623C671F15D96900FF45A9 /* TestDateVC.swift in Sources */,
+				6659740D1F1A7B94001C3FF3 /* MCChoice.swift in Sources */,
+				66623C711F15DBAC00FF45A9 /* FeeWaiverVC.swift in Sources */,
+				667FAC7F1EF87A6A00A5194F /* TopTVC.swift in Sources */,
+				661EC7BB1F12CE0D0014E12D /* HomeVC.swift in Sources */,
+				667FAC5D1EF706F100A5194F /* MCQuestionTable.swift in Sources */,
+				661EC7C11F1318FD0014E12D /* BlogContentVC.swift in Sources */,
+				66623C691F15D9AB00FF45A9 /* TermsVC.swift in Sources */,
+				66D96B851F1A77CF0084C5AF /* QuestTextfieldTVC.swift in Sources */,
+				661EC7BF1F12F86C0014E12D /* BlogPVC.swift in Sources */,
+				66623C621F15D7BD00FF45A9 /* ContactUsVC.swift in Sources */,
+				66D96B831F1A77820084C5AF /* QuestImageTVC.swift in Sources */,
+				667FAC811EF8BDC800A5194F /* Problem.swift in Sources */,
+				66C751C91F1A7DF6006C881F /* ExampleProblems.swift in Sources */,
+				668586DD1F13F2BC00104024 /* BlogPostFullVC.swift in Sources */,
+				66CA56491F142EA800E57055 /* PracticeVC.swift in Sources */,
+				66819AA41EF5A8A70074FAB5 /* MathQuestioner.swift in Sources */,
+				66D96B871F1A77F00084C5AF /* QuestLatexLabelTVC.swift in Sources */,
+				66623C6B1F15DA8A00FF45A9 /* CreditsVC.swift in Sources */,
+				66623C651F15D82500FF45A9 /* RateUsVC.swift in Sources */,
+				66623C6F1F15DB0500FF45A9 /* SupportUSVC.swift in Sources */,
+				662A514A1F16D468001A25A7 /* CalculatorVC.swift in Sources */,
+				66C751C71F1A7C0B006C881F /* ProblemSet.swift in Sources */,
+				66819AA21EF5A8A70074FAB5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66819AAE1EF5A8A70074FAB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66819AB71EF5A8A70074FAB5 /* SAT_MathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66819AB91EF5A8A70074FAB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66819AC21EF5A8A70074FAB5 /* SAT_MathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66819AB41EF5A8A70074FAB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66819A9D1EF5A8A70074FAB5 /* SAT Math */;
+			targetProxy = 66819AB31EF5A8A70074FAB5 /* PBXContainerItemProxy */;
+		};
+		66819ABF1EF5A8A70074FAB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66819A9D1EF5A8A70074FAB5 /* SAT Math */;
+			targetProxy = 66819ABE1EF5A8A70074FAB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66819AA51EF5A8A70074FAB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66819AA61EF5A8A70074FAB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66819AAA1EF5A8A70074FAB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66819AAB1EF5A8A70074FAB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66819AC41EF5A8A70074FAB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66819AC51EF5A8A70074FAB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66819AC71EF5A8A70074FAB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57AAA7C382E1CF2BB7543F7A /* Pods-SAT Math.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SAT Math/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.SAT-Math";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		66819AC81EF5A8A70074FAB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4324637F433546069C434C8D /* Pods-SAT Math.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SAT Math/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.SAT-Math";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		66819ACA1EF5A8A70074FAB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69B0AE3B0B70FCA56C509F78 /* Pods-SAT MathTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SAT MathTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.SAT-MathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAT Math.app/SAT Math";
+			};
+			name = Debug;
+		};
+		66819ACB1EF5A8A70074FAB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A16A7B4AFD0E8FEBFC96CB /* Pods-SAT MathTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SAT MathTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.SAT-MathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAT Math.app/SAT Math";
+			};
+			name = Release;
+		};
+		66819ACD1EF5A8A70074FAB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1669E318A8123B94F1B6382E /* Pods-SAT MathUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "SAT MathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.SAT-MathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SAT Math";
+			};
+			name = Debug;
+		};
+		66819ACE1EF5A8A70074FAB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5192697460A813D3211BE4A /* Pods-SAT MathUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "SAT MathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.SAT-MathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SAT Math";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66819A991EF5A8A70074FAB5 /* Build configuration list for PBXProject "SAT Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66819AC41EF5A8A70074FAB5 /* Debug */,
+				66819AC51EF5A8A70074FAB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66819AC61EF5A8A70074FAB5 /* Build configuration list for PBXNativeTarget "SAT Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66819AC71EF5A8A70074FAB5 /* Debug */,
+				66819AC81EF5A8A70074FAB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66819AC91EF5A8A70074FAB5 /* Build configuration list for PBXNativeTarget "SAT MathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66819ACA1EF5A8A70074FAB5 /* Debug */,
+				66819ACB1EF5A8A70074FAB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66819ACC1EF5A8A70074FAB5 /* Build configuration list for PBXNativeTarget "SAT MathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66819ACD1EF5A8A70074FAB5 /* Debug */,
+				66819ACE1EF5A8A70074FAB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66819A961EF5A8A70074FAB5 /* Project object */;
+}

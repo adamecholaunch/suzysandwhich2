@@ -1,0 +1,6 @@
+framework module Pods_SAT_Math {
+  umbrella header "Pods-SAT Math-umbrella.h"
+
+  export *
+  module * { export * }
+}
